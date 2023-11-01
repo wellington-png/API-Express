@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: mediumspringgreen;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
+.editButton,
+.removeButton,
+.cancelButton,
+.addButton,
+addButton {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+.editButton {
+  background-color: #007bff;
+}
+.removeButton {
+  background-color: #ff5733;
+}
+.addButton {
+  background-color: #28a745;
+}
+.cancelButton {
+  background-color: #ff5733;
+}
+.button:hover {
+  background-color: #ff4322;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+.form label {
+  margin-right: 10px;
+}
+.form input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

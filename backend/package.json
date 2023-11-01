@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Projeto fullstack em que os dados sejam salvos em um ou mais arquivos json",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RochaGabriell/fullstackJSON.git"
+  },
+  "author": "RochaGabriell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RochaGabriell/fullstackJSON/issues"
+  },
+  "homepage": "https://github.com/RochaGabriell/fullstackJSON#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}
